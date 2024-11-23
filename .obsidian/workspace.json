@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "4f32908455cbdb4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c2a67e165a9a533",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00502cdb11d3a961",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d481728967deb856",
+    "type": "split",
+    "children": [
+      {
+        "id": "63365e25f020a8dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c59c84ced1212cd7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3c53b34429401637",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1441f36a36760fd0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7f9f851c07e33842",
+    "type": "split",
+    "children": [
+      {
+        "id": "f97fb096df599c77",
+        "type": "tabs",
+        "dimension": 34.42340791738382,
+        "children": [
+          {
+            "id": "cfc8d9526783dd42",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/notes/numerical methods/Galerkin Method.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Galerkin Method"
+            }
+          },
+          {
+            "id": "da8e6828e916afbd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/notes/numerical methods/Galerkin Method.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Galerkin Method"
+            }
+          },
+          {
+            "id": "6b6b443d2813612f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f21e71ac8ce70dce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/notes/theoretical notes/General Relativistic Magnetohydrodynamics.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of General Relativistic Magnetohydrodynamics"
+            }
+          },
+          {
+            "id": "088f64965d4ea338",
+            "type": "leaf",
+            "state": {
+              "type": "zotero-annotation-view",
+              "state": {
+                "file": "docs/notes/theoretical notes/General Relativistic Magnetohydrodynamics.md",
+                "itemId": -1,
+                "attachmentId": -1,
+                "follow": "zt-reader"
+              },
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "f2018628ef7a3ad8",
+        "type": "tabs",
+        "dimension": 65.57659208261617,
+        "children": [
+          {
+            "id": "506d534d269cea50",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 384.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "00502cdb11d3a961",
+  "lastOpenFiles": [
+    "assets/attch/viktor-forgacs-iMBBagKV6tc-unsplash.jpg",
+    "assets/attch",
+    "lectures/EMPTY",
+    "EMPTY",
+    "assets/templates/roadmap.md",
+    "assets/templates/stylesheet.nb",
+    "planning/roadmap.md",
+    "assets/templates/week-nn-yyyy-mm.md",
+    "assets/templates/current-quarter.md",
+    "planning/weekly/week-nn-yyyy-mm.md.md",
+    "README.md",
+    "assets/templates",
+    "planning/quarters/current-quarter.md",
+    "planning/quarters",
+    "planning/agenda/current-quarter.md",
+    "planning/weekly",
+    "planning/agenda",
+    "planning",
+    "documents/topics",
+    "Documents/Notes.md",
+    "Notes/Ehsan Kiani TOC.md",
+    "docs/notes/theoretical notes/The 3+1 Valencia formulation of GRMHD equations for numerical relativity.md",
+    "docs/notes/theoretical notes/General Relativity.md",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/22bdf1a11aadcb80_.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/22bdf1a11aadcb80.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/dda259e02ff3dd69_.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/dda259e02ff3dd69.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/Tex/1d9baeb7d80c3e07_.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/Tex/1d9baeb7d80c3e07.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/0b258f4979b39537_.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/0b258f4979b39537.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/0a6bd4d3e40cc972_.svg",
+    "presentations/19Nov2024-DrNouriPresentation/media/texts/0a6bd4d3e40cc972.svg",
+    "presentations/19Nov2024-DrNouriPresentation/presentation.md",
+    "docs/notes/theoretical notes/ADM Formulation.md",
+    "docs/notes/theoretical notes/3+1 Decomposition.md",
+    "docs/reports/Numerical Relativity.md",
+    "scripts/spectre/LocalCompilation.md",
+    "docs/References.md",
+    "docs/reports/How to Install spECTRE Locally.md",
+    "docs/Docs.md",
+    "docs/notes/theoretical notes/Continuity Equation.md",
+    "docs/notes/theoretical notes/Energy Momentum Tensor Conservation.md",
+    "docs/notes/numerical methods/Galerkin Method.md",
+    "docs/notes/numerical methods/Finite Volume Method.md",
+    "docs/notes/numerical methods/Finite Difference Method.md",
+    "Untitled.canvas",
+    "docs/notes/Untitled.canvas"
+  ]
+}

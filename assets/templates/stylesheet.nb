@@ -1,0 +1,193 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6514,        185]
+NotebookOptionsPosition[      4329,        152]
+NotebookOutlinePosition[      4933,        174]
+CellTagsIndexPosition[      4890,        171]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[StyleData[StyleDefinitions -> "Default.nb"],ExpressionUUID->"97470286-8a71-4503-b609-b07203713767"],
+
+Cell[StyleData["Title"],
+ PageWidth->PaperWidth,
+ Alignment->Left,
+ TextAlignment->Right,
+ FontFamily->"IBM Plex Sans",
+ FontSize->72,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->GrayLevel[1],
+ Background->GrayLevel[
+  0],ExpressionUUID->"f00dbc98-ccae-49a2-a4d7-d55b8c482c1a"],
+
+Cell[StyleData["Subtitle"],
+ PageWidth->PaperWidth,
+ TextAlignment->Right,
+ FontFamily->"IBM Plex Mono Thin",
+ FontSize->32,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontTracking->"Plain",
+ FontVariations->{"Outline"->False,
+ "Shadow"->False,
+ "StrikeThrough"->False,
+ "Underlight"->None,
+ "Underline"->False},ExpressionUUID->"328ad19d-9803-45d5-8b13-7db101a9e28d"],
+
+Cell[StyleData["Chapter"],
+ FontFamily->"IBM Plex Sans",
+ FontSize->48,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[
+  0.15294117647058825`, 0., 
+   0.24705882352941178`],ExpressionUUID->"edf115b6-c8f0-47a3-8f9b-\
+89d2533ffe49"],
+
+Cell[StyleData["Section"],
+ FontFamily->"IBM Plex Sans",
+ FontSize->32,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[
+  0.3333333333333333, 0., 
+   1.],ExpressionUUID->"370474cc-47e7-407f-b3d3-9735bba0cd96"],
+
+Cell[StyleData["Subsection"],
+ FontFamily->"IBM Plex Sans",
+ FontSize->24,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[
+  0.23137254901960785`, 0., 
+   0.5529411764705883],ExpressionUUID->"7880bade-ddca-4aa4-bc18-e6f1799d2cc9"],
+
+Cell[StyleData["Subsubsection"],
+ FontFamily->"IBM Plex Sans",
+ FontSize->24,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},
+ FontColor->RGBColor[
+  0.2196078431372549, 0.2196078431372549, 
+   0.22745098039215686`],ExpressionUUID->"f3d812b4-6dfe-426d-8992-\
+c09c9a7f19c5"],
+
+Cell[StyleData["Text"],
+ FontFamily->"IBM Plex Sans",
+ FontSize->16,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"673afbdb-6b6f-4a0f-bf55-67620719dfdf"],
+
+Cell[StyleData["Code"],
+ FontFamily->"IBM Plex Mono Light",
+ FontSize->16,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"26380cd1-3475-4249-88eb-c1ea716072eb"],
+
+Cell[StyleData["Input"],
+ FontFamily->"IBM Plex Mono",
+ FontSize->16,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"4d73c4a3-8677-439a-9568-cb36404aee2d"],
+
+Cell[StyleData["NaturalLanguageInput"],
+ FontFamily->"IBM Plex Mono",
+ FontSize->16,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"5b5ec97c-d1f5-466d-ab9a-5792d6c5a77d"],
+
+Cell[StyleData["Output"],
+ FontFamily->"IBM Plex Sans Light",
+ FontSize->16,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"d243cc96-9d82-4e39-95a1-0c6e67ea69fc"],
+
+Cell[StyleData["Abstract"],
+ FontFamily->"IBM Plex Mono Light",
+ FontSize->12,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"7ba89f9b-2fb6-42ca-850d-fd6670cd4cb7"],
+
+Cell[StyleData["Author"],
+ FontFamily->"IBM Plex Sans Light",
+ FontSize->18,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ FontVariations->{"StrikeThrough"->False,
+ "Underline"->False},ExpressionUUID->"99c9c179-3546-4a78-abcd-8563b9c13584"]
+},
+WindowSize->{1440., 755.25},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"PaperOrientation"->"Landscape",
+"PaperSize"->{842, 595},
+"PostScriptOutputFile"->"",
+"PrintingMargins"->{{54, 72}, {72, 0}}},
+FrontEndVersion->"13.2 for Linux x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7957e965-e699-4b39-9615-1c5e1d94ef2c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 104, 0, 26, 49, 0, "StyleData", "StyleDefinitions", "",ExpressionUUID->"97470286-8a71-4503-b609-b07203713767"],
+Cell[665, 22, 352, 12, 168, 24, 0, "StyleData", "Title", "All",ExpressionUUID->"f00dbc98-ccae-49a2-a4d7-d55b8c482c1a"],
+Cell[1020, 36, 368, 12, 81, 27, 0, "StyleData", "Subtitle", "All",ExpressionUUID->"328ad19d-9803-45d5-8b13-7db101a9e28d"],
+Cell[1391, 50, 312, 10, 105, 26, 0, "StyleData", "Chapter", "All",ExpressionUUID->"edf115b6-c8f0-47a3-8f9b-89d2533ffe49"],
+Cell[1706, 62, 290, 9, 76, 26, 0, "StyleData", "Section", "All",ExpressionUUID->"370474cc-47e7-407f-b3d3-9735bba0cd96"],
+Cell[1999, 73, 311, 9, 61, 29, 0, "StyleData", "Subsection", "All",ExpressionUUID->"7880bade-ddca-4aa4-bc18-e6f1799d2cc9"],
+Cell[2313, 84, 332, 10, 61, 32, 0, "StyleData", "Subsubsection", "All",ExpressionUUID->"f3d812b4-6dfe-426d-8992-c09c9a7f19c5"],
+Cell[2648, 96, 230, 6, 49, 23, 0, "StyleData", "Text", "All",ExpressionUUID->"673afbdb-6b6f-4a0f-bf55-67620719dfdf"],
+Cell[2881, 104, 236, 6, 74, 23, 0, "StyleData", "Code", "All",ExpressionUUID->"26380cd1-3475-4249-88eb-c1ea716072eb"],
+Cell[3120, 112, 231, 6, 51, 24, 0, "StyleData", "Input", "All",ExpressionUUID->"4d73c4a3-8677-439a-9568-cb36404aee2d"],
+Cell[3354, 120, 246, 6, 68, 39, 0, "StyleData", "NaturalLanguageInput", "All",ExpressionUUID->"5b5ec97c-d1f5-466d-ab9a-5792d6c5a77d"],
+Cell[3603, 128, 238, 6, 54, 25, 0, "StyleData", "Output", "All",ExpressionUUID->"d243cc96-9d82-4e39-95a1-0c6e67ea69fc"],
+Cell[3844, 136, 240, 6, 74, 27, 0, "StyleData", "Abstract", "All",ExpressionUUID->"7ba89f9b-2fb6-42ca-850d-fd6670cd4cb7"],
+Cell[4087, 144, 238, 6, 48, 25, 0, "StyleData", "Author", "All",ExpressionUUID->"99c9c179-3546-4a78-abcd-8563b9c13584"]
+}
+]
+*)
+
