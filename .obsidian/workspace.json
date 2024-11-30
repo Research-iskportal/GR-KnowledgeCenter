@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7f9f851c07e33842",
@@ -141,10 +142,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/theoretical notes/General Relativistic Magnetohydrodynamics.md"
+                "file": "documents/drafts/amir/Spacetime Physics.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of General Relativistic Magnetohydrodynamics"
+              "title": "Outline of Spacetime Physics"
             }
           },
           {
@@ -163,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "f2018628ef7a3ad8",
@@ -176,8 +177,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
@@ -199,6 +200,14 @@
   },
   "active": "00502cdb11d3a961",
   "lastOpenFiles": [
+    "assets/attch/Pasted image 20241130181027.png",
+    "assets/attch/Pasted image 20241130180021.png",
+    "assets/attch/Pasted image 20241130175734.png",
+    "assets/attch/Pasted image 20241129224040.png",
+    "assets/attch/Pasted image 20241129224029.png",
+    "assets/attch/Pasted image 20241129223608.png",
+    "assets/attch/Pasted image 20241129223600.png",
+    "assets/attch/Pasted image 20241129223545.png",
     "assets/attch/Pasted image 20241123192455.png",
     "README.md",
     "documents/drafts/amir/Spacetime Physics.md",
@@ -225,14 +234,6 @@
     "docs/notes/theoretical notes/The 3+1 Valencia formulation of GRMHD equations for numerical relativity.md",
     "docs/notes/theoretical notes/General Relativity.md",
     "presentations/19Nov2024-DrNouriPresentation/media/texts/22bdf1a11aadcb80_.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/texts/22bdf1a11aadcb80.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/texts/dda259e02ff3dd69_.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/texts/dda259e02ff3dd69.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/Tex/1d9baeb7d80c3e07_.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/Tex/1d9baeb7d80c3e07.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/texts/0b258f4979b39537_.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/texts/0b258f4979b39537.svg",
-    "presentations/19Nov2024-DrNouriPresentation/media/texts/0a6bd4d3e40cc972_.svg",
     "presentations/19Nov2024-DrNouriPresentation/presentation.md",
     "docs/notes/theoretical notes/ADM Formulation.md",
     "docs/notes/theoretical notes/3+1 Decomposition.md",
