@@ -1,0 +1,116 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4025,        108]
+NotebookOptionsPosition[      2997,         82]
+NotebookOutlinePosition[      3506,         99]
+CellTagsIndexPosition[      3463,         96]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Foundations of Special Relativity", "Title",
+ CellChangeTimes->{{3.942027506868689*^9, 3.9420275624666777`*^9}, {
+  3.942418309274337*^9, 
+  3.942418334142371*^9}},ExpressionUUID->"3d9dcae9-6f2c-4604-a507-\
+bb88ddf25af8"],
+
+Cell["Interactive Notebooks of Gravitation - MTW", "Subtitle",
+ CellChangeTimes->{{3.942027534791337*^9, 3.942027536205263*^9}, {
+  3.942027574347774*^9, 
+  3.942027608018423*^9}},ExpressionUUID->"00116d39-8bd9-400b-a6d8-\
+0becf59b411f"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Chapter",
+ CellChangeTimes->{{3.9420276843252153`*^9, 
+  3.942027685235518*^9}},ExpressionUUID->"ef2fd38a-0adc-4173-917b-\
+784839567638"],
+
+Cell["\<\
+In this notebook we investigate the region of spacetime, so limited that we \
+consider it flat. Here we overview simply the 4-vector, energy-momentum \
+4-vector, elementary Lorentz transformations; the Lorentz law for the force \
+on a charged particle and more. \
+\>", "Text",
+ CellChangeTimes->{{3.94202768640802*^9, 
+  3.942027790603354*^9}},ExpressionUUID->"851b7133-40b6-4330-b86f-\
+fb6ea45184ec"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Geometric Objects", "Chapter",
+ CellChangeTimes->{{3.942418522320839*^9, 
+  3.942418532559767*^9}},ExpressionUUID->"7982331a-58f7-4885-a932-\
+340d913fa1ff"],
+
+Cell[TextData[{
+ "Everything that goes in spacetime has its geometric description, and almost \
+every one of these descriptions lends itself to ready generalization from \
+flat spacetime to curved spacetime. The greatest of the differences between \
+one geometric object and another is its scope:  the individual object \
+(vector) for the momentum of a certain particle at a certain phase in its \
+history, as contrasted to the extended geometric object that describes an \
+electromagnetic field defined throughout space and time. \n\nThe idea that \
+every physical quantity must be describable by a geometric object, and that \
+the laws of physics must all be expressible as geometric relationships \
+between these geometric objects, had its intellectual beginnings in the \
+Erlanger program of Felix Klein, came closer to physics in Einstein\
+\[CloseCurlyQuote]s \[OpenCurlyDoubleQuote]",
+ StyleBox["principle of general covariance",
+  FontSlant->"Italic"],
+ "\[CloseCurlyDoubleQuote] "
+}], "Text",
+ CellChangeTimes->{{3.942418536119335*^9, 
+  3.942418770456588*^9}},ExpressionUUID->"51e84078-c62e-4caa-b679-\
+2a78054e5e0f"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{720., 755.25},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"13.2 for Linux x86 (64-bit) (November 18, 2022)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "home", "kid-a", 
+   "mathematica-styles"}, "stylesheet.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"5b09dd80-787b-41b9-ba13-37f4f13fd016"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 227, 4, 352, "Title",ExpressionUUID->"3d9dcae9-6f2c-4604-a507-bb88ddf25af8"],
+Cell[810, 28, 237, 4, 107, "Subtitle",ExpressionUUID->"00116d39-8bd9-400b-a6d8-0becf59b411f"],
+Cell[CellGroupData[{
+Cell[1072, 36, 155, 3, 89, "Chapter",ExpressionUUID->"ef2fd38a-0adc-4173-917b-784839567638"],
+Cell[1230, 41, 411, 8, 112, "Text",ExpressionUUID->"851b7133-40b6-4330-b86f-fb6ea45184ec"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1678, 54, 162, 3, 89, "Chapter",ExpressionUUID->"7982331a-58f7-4885-a932-340d913fa1ff"],
+Cell[1843, 59, 1126, 19, 287, "Text",ExpressionUUID->"51e84078-c62e-4caa-b679-2a78054e5e0f"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
